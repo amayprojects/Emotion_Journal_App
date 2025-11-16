@@ -1,16 +1,108 @@
-# React + Vite
+This is the frontend of the Full Stack Developer assessment project.
+It is built using Vite + React with Tailwind CSS for fast development, clean UI, and optimized performance.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Tech Stack
 
-Currently, two official plugins are available:
+Vite – Lightning-fast dev server & bundler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React – Component-based UI
 
-## React Compiler
+Tailwind CSS – Utility-first styling
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Axios / Fetch – API communication
 
-## Expanding the ESLint configuration
+JavaScript (ES6+)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📁 Project Structure
+frontend/
+│── src/
+│   ├── components/
+│   ├── pages/
+│   ├── hooks/
+│   ├── services/
+│   ├── App.jsx
+│   └── main.jsx
+│── public/
+│── index.html
+│── package.json
+│── tailwind.config.js
+│── postcss.config.js
+└── README.md
+
+🔌 How It Works
+
+The frontend communicates with the backend API using REST endpoints.
+All data (auth, CRUD operations, etc.) is fetched using Axios/Fetch and rendered using React components.
+
+🧪 Setup Instructions
+1. Install Dependencies
+npm install
+
+2. Start Development Server
+npm run dev
+
+3. Environment Variables
+
+Create a .env file (not pushed to GitHub):
+
+VITE_API_URL=http://localhost:5000
+
+
+Use it inside the code:
+
+const API = import.meta.env.VITE_API_URL;
+
+🛠️ Build for Production
+npm run build
+
+🎨 Styling
+
+Tailwind CSS is imported globally via:
+
+@import "tailwindcss";
+
+
+in index.css.
+
+Write styles directly in components using utility classes like:
+
+<div className="p-4 bg-gray-100 rounded-xl shadow">
+
+📡 API Integration
+
+All API requests hit the backend routes such as:
+
+POST /api/auth/login
+GET /api/data
+POST /api/item
+
+
+You can configure base URLs inside services/ or via environment variables.
+
+📦 Production Deployment
+
+You can host this frontend on:
+
+Vercel
+
+Netlify
+
+GitHub Pages (static mode)
+
+AWS S3 + CloudFront
+
+Just upload the built folder:
+
+dist/
+
+🚀 Features
+
+Clean and minimal UI
+
+Fully responsive (Tailwind)
+
+API-ready structure
+
+Easy to maintain code
+
+Fast Vite development experience
