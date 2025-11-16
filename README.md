@@ -126,7 +126,7 @@ Body example:
 5. User Experience: How did you ensure smooth, simple UX?
 
    I focused on a minimal, predictable flow: select emotion → type entry → save → see it instantly. The UI uses clean spacing, readable typography, and simple colors so the user never feels overwhelmed.
-   Instant updates, form validation, and clear error messages help the user stay confident while using the app. The layout is responsive and mobile-friendly, ensuring a smooth experience on all devices.
+   Instant updates, form validation, and clear error messages help the user stay confident while using the app.
 
 7. Improvement Vision: If you had 3 more days, what would you improve?
 
