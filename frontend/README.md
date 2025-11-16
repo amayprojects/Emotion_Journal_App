@@ -1,6 +1,7 @@
 This is the frontend of the Full Stack Developer assessment project.
 It is built using Vite + React with Tailwind CSS for fast development, clean UI, and optimized performance.
 
+
 🚀 Tech Stack
 
   - Vite – Lightning-fast dev server & bundler
@@ -13,10 +14,12 @@ It is built using Vite + React with Tailwind CSS for fast development, clean UI,
   
   - JavaScript (ES6+)
 
+
 🔌 How It Works
 
 The frontend communicates with the backend API using REST endpoints.
 All data (auth, CRUD operations, etc.) is fetched using Axios/Fetch and rendered using React components.
+
 
 🧪 Setup Instructions
 1. Install Dependencies
@@ -24,6 +27,7 @@ All data (auth, CRUD operations, etc.) is fetched using Axios/Fetch and rendered
 
 2. Start Development Server
     - npm run dev
+
 
 🎨 Styling
 
@@ -44,6 +48,7 @@ GET
 - /api/entries
 
 You can configure base URLs inside services/ or via environment variables.
+
 
 🚀 Features
 
