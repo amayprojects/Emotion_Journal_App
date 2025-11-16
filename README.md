@@ -1,4 +1,4 @@
-📘 Emotional Journal App — Full Stack Assessment Project
+📘 Emotional Journal App
 
 This is a simple Full-Stack Emotional Journal Web App. The project allows users to log their current emotion along with a short journal entry, and view all their past entries.
 
@@ -57,6 +57,7 @@ Make sure to set your environment variable or you can use mine from the reposito
 
 The frontend will run on:
  👉 http://localhost:5173
+
 The backend will run on:
  👉 http://localhost:5000
 
